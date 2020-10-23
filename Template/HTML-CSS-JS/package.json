@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "Config for css modules",
+    "name": "cfg-css-mods",
+    "scripts": {
+      "start": "webpack-dev-server --open",
+      "build": "webpack"
+    },
+    "devDependencies": {
+      "babel-plugin-syntax-dynamic-import": "^6.18.0",
+      "css-loader": "^5.0.0",
+      "postcss": "^8.1.2",
+      "postcss-cli": "^8.1.0",
+      "postcss-loader": "^4.0.4",
+      "style-loader": "^2.0.0",
+      "terser-webpack-plugin": "^5.0.0",
+      "webpack": "^5.1.3",
+      "webpack-cli": "^4.1.0",
+      "webpack-dev-server": "^3.11.0"
+    }
+  }
+  
