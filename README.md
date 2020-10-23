@@ -2,7 +2,9 @@
 Recursos e ferramentas para melhorar a experiência de utilização de sítios públicos.
 
 ## CSS Modules
-Inclui suporte para a especificação [CSS Modules](https://github.com/css-modules/css-modules) via [Webpack](https://webpack.js.org/). Execute `npm run build` na linha de comandos para transformar o código css na versão modular que será incorporado pelo webpack na distribuição main.js numa pasta /dist por defeito que deverá ser incluída na página html. O código gerado permite que cada recurso css funcione no seu próprio namespace através de uma variável javascript para o efeito como se demonstra no exemplo a seguir; as classes mantêm as designações originais do código css embora internamente sejam convertidas em hashes gerados durante a compilação.
+Inclui suporte para a especificação [CSS Modules](https://github.com/css-modules/css-modules) via [Webpack](https://webpack.js.org/). Execute `npm run build` na linha de comandos para transformar o código css na versão modular que será incorporado pelo webpack na distribuição main.js (o que consiste numa aplicação prática do conceito [css-in-js](https://en.wikipedia.org/wiki/CSS-in-JS)) numa pasta /dist por defeito que deverá ser incluída na página html. O código gerado permite que cada recurso css funcione no seu próprio namespace através de uma variável javascript para o efeito como se demonstra no exemplo a seguir; as classes mantêm as designações originais do código css embora internamente sejam convertidas em hashes gerados durante a compilação.
+
+A configuração inclui igualmente suporte para [PostCSS](https://postcss.org/) (requerido por exemplo pela framework [tailwindcss](https://tailwindcss.com/)) embora sem uso específico de momento (a configuração `postcss.config.js` não carrega nenhum plugin).
 
 ### Exemplo
 ```
