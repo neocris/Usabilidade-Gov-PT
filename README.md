@@ -47,3 +47,6 @@ A configuração inclui igualmente suporte para [PostCSS](https://postcss.org/) 
 
   document.querySelector('#root').innerHTML = taillay+tachlay;
 ```
+## Spectrum CSS
+
+Inclui suporte para [Adobe Spectrum CSS](https://spectrum.adobe.com/) através de npm package manager conforme as instruções em [Get Started with Spectrum CSS](https://opensource.adobe.com/spectrum-css/get-started.html) com demonstração em `button.html`.
