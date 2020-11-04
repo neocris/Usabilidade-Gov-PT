@@ -47,6 +47,20 @@ A configuração inclui igualmente suporte para [PostCSS](https://postcss.org/) 
 
   document.querySelector('#root').innerHTML = taillay+tachlay;
 ```
-## Spectrum CSS
+## Design Tokens
+
+[Design Tokens](https://www.designtokens.org/) constituêm um meio poderoso de reutilizar primitivas de design conformes com um [Sistema de Design](http://styleguides.io/examples) coerente em vários projectos com uma identidade visual uniforme facilitando a sua gestão centralizada.
+
+### Style Dictionary
+
+Neste projecto providencia-se um pequeno exemplo da sua utilização que poderá ser integrada com outras frameworks e metodologias.
+
+Para tal recorre-se à ferramenta [Style Dictionary](https://amzn.github.io/style-dictionary) que permite exportar uma especificação própria de design tokens para formatos diversos em android, scss, e ios, mas a ferramenta é extensível e pode ser configurada de acordo com as necessidades.
+
+Siga as instruções expressas na documentação para gerar design tokens a partir dos seus projectos ou dos exemplos fornecidos no site. No exemplo aqui sugerido foi usado o exemplo básico contido na própria distribuição.
+
+Após esse passo deverá ter uma pasta `/build` com os ficheiros necessários conforme descrito. Nessa pasta constará entre outras uma subpasta `/scss` com variáveis sass para inclusão. Essas variáveis são utilizadas para definir certas propriedades css - no exemplo apresentado há variáveis disponíveis para definir tamanhos e côres que são utilizadas posteriormente na formatação de um botão html. Com esses elementos fica-se então apto a compilar o [Sass](https://sass-lang.com) assim obtido numa folha de estilo css comum para inclusão em `button.html`. Para isso dever-se-á instalar o [gem](https://rubygems.org/) sass (requer [Ruby](https://www.ruby-lang.org)) caso necessário para acesso na linha de comandos através de `sass input.scss output.css` ou em alternativa instalar o módulo sass para javascript e [plugins webpack](https://webpack.js.org/loaders/sass-loader/) respectivos em NodeJS (a divulgar mais tarde).
+
+### Spectrum CSS
 
 Inclui suporte para [Adobe Spectrum CSS](https://spectrum.adobe.com/) conforme as instruções em [Get Started with Spectrum CSS](https://opensource.adobe.com/spectrum-css/get-started.html) com demonstração em `Template/HTML-CSS-JS/button.html`.
