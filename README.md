@@ -64,3 +64,7 @@ Após esse passo deverá ter uma pasta `/build` com os ficheiros necessários co
 ### Spectrum CSS
 
 Inclui suporte para [Adobe Spectrum CSS](https://spectrum.adobe.com/) conforme as instruções em [Get Started with Spectrum CSS](https://opensource.adobe.com/spectrum-css/get-started.html) com demonstração em `Template/HTML-CSS-JS/button.html`.
+
+### OOCSS
+
+Procedeu-se à inclusão de um exemplo de integração da metodologia [OOCSS](http://oocss.org/) que consiste na aplicação do conceito de objecto (objecto css, por analogia ao conceito derivado da [programação orientada a objectos](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos)) à estruturação de componentes/widgets através de classes css modulares. Esta abordagem é análoga aos design tokens no sentido da separação de interesses ([separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) na linguagem original) expressa na desafectação de casos concretos transpostos para entidades abstractas que agilizem a portabilidade e a escalabilidade das soluções com a diferença de que os valores são _hardcoded_ ao invés de serializados como sucede nos design tokens.
