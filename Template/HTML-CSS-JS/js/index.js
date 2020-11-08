@@ -1,5 +1,5 @@
-import tailwind from "./css/tailwind.min.css";
-import tachyons from "./css/tachyons.min.css";
+import tailwind from "./frameworks/tailwind.min.css";
+import tachyons from "./frameworks/tachyons.min.css";
 
 console.log(tachyons);
 
